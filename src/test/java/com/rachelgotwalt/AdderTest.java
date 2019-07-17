@@ -21,4 +21,9 @@ public class AdderTest {
         assertEquals(-1, Adder.add(1, -2));
     }
 
+    @Test
+    public void add_should_add_zero() {
+        assertEquals(0, Adder.add(0, 0));
+    }
+
 }
