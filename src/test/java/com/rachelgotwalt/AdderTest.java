@@ -19,6 +19,6 @@ public class AdderTest {
     @Test
     public void add_should_add_positive_and_negative_numbers() {
         assertEquals(-1, Adder.add(1, -2));
-    } 
+    }
 
 }
