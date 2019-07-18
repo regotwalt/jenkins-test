@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ * Tests for the {@link Adder} class.
+ */
 public class AdderTest {
 
     @Test
