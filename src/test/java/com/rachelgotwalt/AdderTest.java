@@ -36,6 +36,7 @@ public class AdderTest {
     @Test
     public void add_should_add_three_positive_numbers() {
         assertEquals(3, Adder.add(1, 1, 1));
+        assertEquals(6, Adder.add(1, 2, 3));
     }
 
     @Test
@@ -48,6 +49,11 @@ public class AdderTest {
     public void add_should_add_three_mixed_numbers() {
         assertEquals(-1, Adder.add(3, -5, 1));
         assertEquals(-4, Adder.add(3, -5, -2));
+    }
+
+    @Test
+    public void add_should_add_three_zeros() {
+        assertEquals(0, Adder.add(0, 0, 0));
     }
 
 }
