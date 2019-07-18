@@ -25,5 +25,7 @@ public class AdderTest {
     public void add_should_add_zero() {
         assertEquals(0, Adder.add(0, 0));
     }
-    
+
+    // OMG OMG
+
 }
