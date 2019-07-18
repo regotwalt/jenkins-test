@@ -51,4 +51,9 @@ public class AdderTest {
         assertEquals(-4, Adder.add(3, -5, -2));
     }
 
+    @Test
+    public void add_should_add_three_zeros() {
+        assertEquals(0, Adder.add(0, 0, 0));
+    }
+
 }
