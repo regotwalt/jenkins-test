@@ -43,4 +43,9 @@ public class AdderTest {
         assertEquals(-3, Adder.add(-1, -1, -1));
     }
 
+    @Test
+    public void add_should_add_three_mixed_numbers() {
+        assertEquals(-1, Adder.add(3, -5, 1));
+    }
+
 }
