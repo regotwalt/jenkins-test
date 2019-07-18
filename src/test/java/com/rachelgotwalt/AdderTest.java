@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Tests for the {@link Adder} class.
+ * Tests for the {@link Adder} class. Dumb, but used for Jenkins triggering. So annoying.
  */
 public class AdderTest {
 
