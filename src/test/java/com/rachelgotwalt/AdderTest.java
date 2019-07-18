@@ -36,6 +36,7 @@ public class AdderTest {
     @Test
     public void add_should_add_three_positive_numbers() {
         assertEquals(3, Adder.add(1, 1, 1));
+        assertEquals(6, Adder.add(1, 2, 3));
     }
 
     @Test
