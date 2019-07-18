@@ -12,6 +12,7 @@ public class AdderTest {
     @Test
     public void add_should_add_two_positive_numbers() {
        assertEquals(2, Adder.add(1, 1));
+       assertEquals(4, Adder.add(1, 3));
     }
 
     @Test
