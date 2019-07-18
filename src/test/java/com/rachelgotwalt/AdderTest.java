@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Tests for the {@link Adder} class. Just for Jenkins testing. 
+ * Tests for the {@link Adder} class.
  */
 public class AdderTest {
 
@@ -41,11 +41,13 @@ public class AdderTest {
     @Test
     public void add_should_add_three_negative_numbers() {
         assertEquals(-3, Adder.add(-1, -1, -1));
+        assertEquals(-5, Adder.add(-1, -1, -3));
     }
 
     @Test
     public void add_should_add_three_mixed_numbers() {
         assertEquals(-1, Adder.add(3, -5, 1));
+        assertEquals(-4, Adder.add(3, -5, -2));
     }
 
 }
