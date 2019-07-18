@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ * Tests for the {@link Adder} class.
+ */
 public class AdderTest {
 
     @Test
@@ -25,7 +28,5 @@ public class AdderTest {
     public void add_should_add_zero() {
         assertEquals(0, Adder.add(0, 0));
     }
-
-    // Insane
 
 }
