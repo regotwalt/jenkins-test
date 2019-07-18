@@ -26,6 +26,6 @@ public class AdderTest {
         assertEquals(0, Adder.add(0, 0));
     }
 
-    // OMG OMG
+    // Insane
 
 }
