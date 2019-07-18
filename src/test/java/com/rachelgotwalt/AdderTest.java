@@ -33,4 +33,14 @@ public class AdderTest {
         assertEquals(1, Adder.add(0, 1));
     }
 
+    @Test
+    public void add_should_add_three_positive_numbers() {
+        assertEquals(3, Adder.add(1, 1, 1));
+    }
+
+    @Test
+    public void add_should_add_three_negative_numbers() {
+        assertEquals(-3, Adder.add(-1, -1, -1));
+    }
+
 }
